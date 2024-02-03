@@ -1,0 +1,34 @@
+1). Basically It create a server on localhost 
+
+const http = require("http");
+
+const PORT = 8008
+
+const useServer = http.createServer((request, response) => {
+    console.log("New Request Received.");
+    response.end("Hello Sabar!!");
+});
+
+useServer.listen(PORT, () => console.log("Server Started!!"))
+
+
+2). Basically It create a server on localhost and generate a log file
+
+// Use for Create a server
+const http = require("http");
+const PORT = 8800
+
+// use for file handling
+const fs = require('fs');
+
+const useServer = http.createServer((request, response) => {
+    
+    const log = `${Date.now()} : New Request Recieved.\n`
+    fs.appendFile('log.txt', log, (error, data) => {
+        
+        response.end("Hello Sabar!!");
+    })
+
+});
+
+useServer.listen(PORT, () => console.log("Server Started!!"))
