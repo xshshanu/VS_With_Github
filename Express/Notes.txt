@@ -1,0 +1,48 @@
+1). It create a local server Basically I update more efficient Code
+
+// Use for Create a server
+const http = require("http");
+
+// Create a Port Variable
+const PORT = 8800;
+
+// It's use for create an express app
+const express = require("express")
+const app = express();
+
+// Define routes and their respective handlers
+app.get('/', (req, res) => {
+    res.send('Hello Sanobar Bacha');
+});
+
+app.get('/bacha', (req, res) => {
+    res.send('Hello Bacha - Kaisi ho Sabar');
+});
+
+// Start the server
+const server = http.createServer(app);
+server.listen(PORT, () => console.log(`Server started on port ${PORT}`));
+
+-------------------------------------------------------------------------
+
+2). It create a local server Basically I update more efficient Code
+- I remove something that I've no need
+
+// It's use for create an express app
+const express = require("express")
+const app = express();
+
+// Create a Port Variable
+const PORT = 8800;
+
+// Define routes and their respective handlers
+app.get('/', (req, res) => {
+    res.send('Hello Sanobar Bacha');
+});
+
+app.get('/bacha', (req, res) => {
+    res.send('Hello Bacha - Kaisi ho Sabar');
+});
+
+// Start the server
+app.listen(PORT, () => console.log(`Server started on port ${PORT}`));

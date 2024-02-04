@@ -1,0 +1,15 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "description": "Learn Express ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "author": "Mohammad Shahabuddin",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "url": "^0.11.3"
+  }
+}
