@@ -1,0 +1,13 @@
+Create REST API - Use in JSON Type.
+
+GET /api/users -> List all the users
+
+GET /api/users/1 -> Get the user with ID 1
+GET /api/users/2 -> Get the user with ID 2
+
+POST  /api/users/ -> Create a new User.
+
+PATCH /api/users/1 -> Edit the user with ID 1
+PATCH /api/users/2 -> Edit the user with ID 2
+
+DELETE /api/users/1 -> Delete the user with ID 1
