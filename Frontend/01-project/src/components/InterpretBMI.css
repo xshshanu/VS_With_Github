@@ -1,0 +1,13 @@
+.inter {
+    color: #e5c8c8;
+    text-align: center;
+}
+
+.span-inter {
+    color: #e31414;
+}
+
+.inter:hover {
+    font-size: 16px;
+    text-transform: capitalize;
+}

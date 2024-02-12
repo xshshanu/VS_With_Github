@@ -1,0 +1,27 @@
+.input {
+    margin-top: 5px;
+    margin-bottom: 7px;
+    text-align: center;
+}
+
+.inp {
+    font-size: 18px;
+    color: #f2f2f2;
+    height: 35px;
+    width: 300px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding-left: 10px;
+    scale: .9;
+    transition: .3s;
+}
+
+.inp:hover {
+    font-size: 18px;
+    font-weight: 700;
+    color: #140b3f;
+    background-color: #a7a5a5;
+    border: 2px solid #08366b;
+    scale: 1;
+    cursor: pointer;
+}

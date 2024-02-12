@@ -1,0 +1,17 @@
+.heading {
+    color: #fff;
+    text-align: center;
+    font-size: 26px;
+    margin-top: 55px;
+    scale: 1;
+    transition: .3s all;
+    cursor: pointer;
+}
+
+.heading:hover {
+    scale: 1.2;
+    cursor: pointer;
+    color: #ae2121;
+    font-size: 30px;
+    font-weight: 800;
+}

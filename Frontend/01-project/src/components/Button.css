@@ -1,0 +1,42 @@
+button {
+  border: none;
+  width: 20vw;
+  height: 5vh;
+  text-align: center;
+  margin-top: 30px;
+  background-color: #0e0d0d;
+  border-radius: 5px;
+  color: aliceblue;
+  border: 1px solid rgb(245, 239, 240);
+  position: absolute;
+  cursor: pointer;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  scale: 1;
+  transition: .3s;
+
+  @media (max-width: 768px) {
+    width: 180px;
+    height: auto;
+    height: 5vh;
+    max-width: 300px;
+    scale: 0.9;
+    transition: 0.3s;
+  }
+}
+
+
+button:hover {
+    scale: 1.1;
+    margin-left: 10px;
+    background-color: #fff;
+    color: #0e0d0d;
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+    box-shadow: 0 0 10px #d3ca18;
+    z-index: 1;
+
+}
+
