@@ -3,7 +3,7 @@ const users = require('./MOCK_DATA.json');
 const fs = require('fs');
 
 const app = express();
-const PORT = 8090;
+const PORT = 8080;
 
 // Using Middleware to parse url-encoded data
 app.use(express.urlencoded({ extended: false }));
